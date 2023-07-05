@@ -1,0 +1,21 @@
+{
+  "name": "raw-node-api-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Sanjoy Paul",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^3.0.0"
+  }
+}
