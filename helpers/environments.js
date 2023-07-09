@@ -17,6 +17,11 @@ environments.staging = {
     envName: 'staging',
     secretKey: 'ashdflajslfasdlfj',
     maxChecks: 5,
+    twilio: {
+        fromPhone: '', // twilio provide number
+        accountSid: '',
+        authToken: '',
+    }
 };
 
 // production environment
@@ -25,6 +30,11 @@ environments.production = {
     envName: 'production',
     secretKey: 'owoeijdflsjfoiods',
     maxChecks: 5,
+    twilio: {
+        fromPhone: '', // twilio provide number
+        accountSid: '',
+        authToken: '',
+    }
 };
 
 // determine which environment was passed
